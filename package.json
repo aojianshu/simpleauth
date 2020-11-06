@@ -1,0 +1,16 @@
+ {
+  "name": "simpleauth",
+  "version": "1.0.0",
+  "description": "Simple Authentication",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/app.css"
+  },
+  "author": "Jason Ancheta",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
